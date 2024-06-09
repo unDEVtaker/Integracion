@@ -1,5 +1,5 @@
 
-
+--tabla de categoria
 CREATE TABLE Categoria (
 CategoriaId int NOT NULL IDENTITY,
 Nombre nvarchar(120) NOT NULL,
@@ -15,7 +15,7 @@ Nombre nvarchar(120) NOT NULL,
 
 ALTER TABLE Marca
 ADD Constraint PK_Marca PRIMARY KEY (MarcaId);
-
+--tabla producto
 CREATE TABLE Producto(
 ProductoID int NOT NULL IDENTITY,
 NombreProducto nvarchar(120) NOT NULL,
